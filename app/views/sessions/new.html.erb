@@ -7,18 +7,18 @@
     <fieldset>
       <legend>Please Log In</legend>
 
-      <div>
+      <div id="fieldset">
         <label for="name">Name:</label><br \>
         <%= text_field_tag :name, params[:name] %>
       </div>
 
-      <div>
+      <div id="fieldset">
         <label for="password">Password:</label><br \>
         <%= password_field_tag :password, params[:password] %>
       </div>
   
-      <div>
-        <%= submit_tag "Login" %>
+      <div id="fieldset">
+        <br \><%= submit_tag "Login" %>
       </div>
     </fieldset>
   <% end %>

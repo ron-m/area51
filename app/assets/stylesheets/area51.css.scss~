@@ -1,6 +1,7 @@
 // Place all the styles related to the area51 controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
 /* A Free Design by Bryant Smith (bryantsmith.com) */
 
 html, body {
@@ -18,6 +19,12 @@ body {
 	color: #F1F5F8;
 	background-color:#2A2A2A;
 }
+
+#fieldset
+{
+  text-align:center;
+}
+
 *
 {
   margin: 0 auto 0 auto;
@@ -186,4 +193,5 @@ font-size:9px;
 color:#2A2A2A;
 padding-top:25px;
 }
+
 
